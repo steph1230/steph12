@@ -4,10 +4,11 @@ body {
 }
 a {
  text-decoration: none;
- 
+ list-style: none;
+ color: #000;
 }
 
 .active{
- 
+ list-style:none;
  color: #000;
 }
