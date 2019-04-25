@@ -1,22 +1,6 @@
 <nav>
   <ul>
-        <li>
-      <a href="/steph12">
-      Home
-      </a>
-    </li>
-    <li>
-      <a href="/steph12/work">
-      Work
-      </a>
-    </li>
-    <li>
-      <a href="/steph12/about">
-      About
-      </a>
-    </li>
-
-    {% for item in site.data.navigation %}
+      {% for item in site.data.navigation %}
       <li>
         <a href="#">
           {{item}}
