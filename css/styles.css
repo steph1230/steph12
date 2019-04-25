@@ -8,6 +8,6 @@ a {
 }
 
 .active{
- text-decoration-style: none;
+ list-style: none;
  color: #000;
 }
